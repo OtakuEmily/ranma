@@ -1,4 +1,4 @@
-"""Event exports for Mirurain."""
+"""Event exports for Ranma."""
 
 from .startup import StartupEvent
 

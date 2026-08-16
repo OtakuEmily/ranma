@@ -1,5 +1,3 @@
-"""Startup event definitions for Mirurain."""
-
 from stoat import BaseEvent
 
 

@@ -1,16 +1,18 @@
-# Navistoat
+<img src=".forgejo/assets/ranma.png" height="128" />
+
+# Ranma
 
 ## What is it?
 
-A "simple" Stoat.chat music bot built on the OpenSubsonic standard and powered by the Mirurain core.
+Ranma is a *"simple"* OpenSubsonic music bot for Stoat.chat, it's a loose fork of [Mirurain (Core)](https://forge.kemonomimi.moe/otakuemily/mirurain) and uses [FFmpeg](https://ffmpeg.org/) as its media backend.
 
-## Documentation
+## Notes
 
-You can view Navistoat's documentation on our Kemonoforge [wiki](https://forge.kemonomimi.moe/otakuemily/navistoat/wiki/).
+Requires `ffmpeg` version >=9. 
 
 ## Cloning the Repository
 
 ```sh
-git clone https://forge.kemonomimi.moe/otakuemily/navistoat
-cd navistoat
+git clone https://forge.kemonomimi.moe/otakuemily/ranma
+cd ranma
 ```
