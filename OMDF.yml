@@ -1,0 +1,28 @@
+# Open Mirror Definition File
+# ---------------------------
+# Higher equals better
+#
+# View the specification and its Python type definitions here:
+# https://forge.kemonomimi.moe/otakuemily/omdf
+
+mirrors:
+  github.com:
+    source: https://github.com/otakuemily/navistoat
+    weight: 40
+    writable: false
+
+  codeberg.org:
+    source: https://codeberg.org/otakuemily/navistoat
+    weight: 30
+    writable: false
+
+  git.gay:
+    source: https://git.gay/otakuemily/navistoat
+    weight: 20
+    writable: false
+
+  forge.kemonomimi.moe:
+    source: https://forge.kemonomimi.moe/otakuemily/navistoat
+    weight: 10
+    canonical: true
+    writable: true

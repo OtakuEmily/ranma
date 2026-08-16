@@ -1,0 +1,133 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv_build>=0.9.18,<0.10.0" ]
+
+[dependency-groups]
+dev = [ "pyright>=1.1.409", "ruff>=0.15.13" ]
+
+[project]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+]
+dependencies = [
+  "aiohttp>=3.13.5",
+  "asyncmy>=0.2.11",
+  "asyncodbc>=0.1.1",
+  "asyncpg>=0.31.0",
+  "asyncstdlib>=3.14.0",
+  "humanfriendly>=10.0",
+  "loguru>=0.7.3",
+  "nostr-sdk>=0.44.2",
+  "opentelemetry-api>=1.42.1",
+  "opentelemetry-exporter-otlp-proto-http>=1.42.1",
+  "opentelemetry-instrumentation-aiohttp-client>=0.63b1",
+  "opentelemetry-instrumentation-asyncio>=0.63b1",
+  "opentelemetry-instrumentation-logging>=0.63b1",
+  "opentelemetry-instrumentation-tortoiseorm>=0.63b1",
+  "opentelemetry-sdk>=1.42.1",
+  "pydantic>=2.13.4",
+  "pydantic-settings>=2.14.1",
+  "python-dotenv>=1.2.2",
+  "rbloom>=1.5.4",
+  "stoat-py[speed]>=1.2.1",
+  "tortoise-orm[accel]>=1.1.7"
+]
+description = "A tiny Stoat bot to bring social media feeds to your communities!"
+keywords = [
+  "navistoat",
+  "stoat.chat",
+  "aggregator",
+  "stoat.py",
+  "microservice"
+]
+license = "AGPL-3.0-or-later"
+name = "navistoat"
+requires-python = ">=3.13"
+version = "2026.7.4a"
+
+  [[project.authors]]
+  name = "Emily"
+  email = "emily@kemonomimi.moe"
+
+  [project.readme]
+  content-type = "text/markdown"
+  file = "README.md"
+
+  [project.scripts]
+  navistoat = "navistoat:entrypoint"
+
+  [project.urls]
+  funding = "https://emily.kemonomimi.moe#donate"
+  github = "https://github.com/OtakuEmily/navistoat"
+  issues = "https://forge.kemonomimi.moe/OtakuEmily/navistoat/issues"
+  repository = "https://forge.kemonomimi.moe/OtakuEmily/navistoat.git"
+
+[tool.pyright]
+exclude = [
+  "**/node_modules",
+  "**/__pycache__",
+  "**/.venv",
+  "**/migrations"
+]
+include = [ "src" ]
+pythonVersion = "3.13"
+reportMissingTypeStubs = "none"
+reportUnknownArgumentType = "none"
+reportUnknownMemberType = "none"
+reportUnknownParameterType = "none"
+reportUnknownVariableType = "none"
+reportUnusedFunction = "none"
+typeCheckingMode = "strict"
+
+[tool.ruff]
+line-length = 100
+src = [ "src" ]
+target-version = "py313"
+
+  [tool.ruff.format]
+  docstring-code-format = true
+  indent-style = "space"
+  quote-style = "double"
+
+  [tool.ruff.lint]
+  dummy-variable-rgx = "^(_+|unused_|dummy_)[A-Za-z0-9_]*$"
+  fixable = [ "ALL" ]
+  ignore = [ "E501" ]
+  select = [
+  "E4",
+  "E7",
+  "E9",
+  "F",
+  "B",
+  "C4",
+  "SIM",
+  "I",
+  "UP",
+  "N",
+  "D",
+  "G",
+  "PTH",
+  "TID",
+  "TC",
+  "PIE",
+  "PERF"
+]
+  unfixable = [ ]
+
+    [tool.ruff.lint.mccabe]
+    max-complexity = 10
+
+    [tool.ruff.lint.pep8-naming]
+    extend-ignore-names = [ "test_*", "*_test" ]
+
+    [tool.ruff.lint.per-file-ignores]
+    "**/migrations/**" = [ "ALL" ]
+
+    [tool.ruff.lint.pydocstyle]
+    convention = "google"
+
+[tool.tortoise]
+tortoise_orm = "navistoat.utilities.database.TORTOISE_ORM"
