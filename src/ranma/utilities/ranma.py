@@ -5,7 +5,6 @@ from typing import Any
 from stoat.ext import commands
 
 from ranma.events.startup import StartupEvent
-from ranma.utilities.settings import settings
 
 
 class RanmaBot(commands.Bot):

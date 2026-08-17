@@ -1,4 +1,3 @@
-from livekit.rtc.room import Room
 from stoat import InstanceLivekitVoiceFeature, SendableEmbed, TextChannel
 from stoat.ext import commands
 

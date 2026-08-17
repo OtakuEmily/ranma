@@ -7,22 +7,22 @@
 
 mirrors:
   github.com:
-    source: https://github.com/otakuemily/navistoat
+    source: https://github.com/otakuemily/ranma
     weight: 40
     writable: false
 
   codeberg.org:
-    source: https://codeberg.org/otakuemily/navistoat
+    source: https://codeberg.org/otakuemily/ranma
     weight: 30
     writable: false
 
   git.gay:
-    source: https://git.gay/otakuemily/navistoat
+    source: https://git.gay/otakuemily/ranma
     weight: 20
     writable: false
 
   forge.kemonomimi.moe:
-    source: https://forge.kemonomimi.moe/otakuemily/navistoat
+    source: https://forge.kemonomimi.moe/otakuemily/ranma
     weight: 10
     canonical: true
     writable: true

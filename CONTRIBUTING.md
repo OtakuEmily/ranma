@@ -1,10 +1,10 @@
 # Contributing
 
-First off, thanks for being interested in contributing to Navistoat, with your support we'll become even better! Before you get started there's some guidelines and information you'll need to know before helping us.
+First off, thanks for being interested in contributing to Ranma, with your support we'll become even better! Before you get started there's some guidelines and information you'll need to know before helping us.
 
 ## AI
 
-The Navistoat project has the goal of ethical usage of AI in our codebase, to keep our codebase clean, secure, and maintainable we ask you to follow the following AI usage guidelines.
+The Ranma project has the goal of ethical usage of AI in our codebase, to keep our codebase clean, secure, and maintainable we ask you to follow the following AI usage guidelines.
 
 1. You **may not** use artificially generated code.
 2. You **may** use artificially generated doc strings when properly reviewing generated doc strings.
@@ -14,11 +14,11 @@ The Navistoat project has the goal of ethical usage of AI in our codebase, to ke
 
 ## Commit Messages
 
-Navistoat uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to help make changes quickly profilable, we ask that you at minimum follow their commit message syntax.
+Ranma uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to help make changes quickly profilable, we ask that you at minimum follow their commit message syntax.
 
 ## Developer Certificate of Origin
 
-By contributing to Navistoat you understand and accept our [Developer Certificate of Origin](https://forge.kemonomimi.moe/otakuemily/navistoat/src/branch/main/DCO) and agree to sign off all commits.
+By contributing to Ranma you understand and accept our [Developer Certificate of Origin](https://forge.kemonomimi.moe/otakuemily/ranma/src/branch/main/DCO) and agree to sign off all commits.
 
 ## Signing Commits
 
@@ -26,6 +26,6 @@ We request that all commits be signed, you can learn how to sign commits [here](
 
 ## Pushing Changes
 
-Navistoat doesn't accept changes through platforms like GitHub or GitLab, all changes must be made through our [Kemonoforge](https://forge.kemonomimi.moe) repository, by using Kemonoforge you accept their [Terms of Service](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/terms.md), [Privacy Policy](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/privacy.md), and agree to follow their [Community Guidelines](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/guidelines.md).
+Ranma doesn't accept changes through platforms like GitHub or GitLab, all changes must be made through our [Kemonoforge](https://forge.kemonomimi.moe) repository, by using Kemonoforge you accept their [Terms of Service](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/terms.md), [Privacy Policy](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/privacy.md), and agree to follow their [Community Guidelines](https://forge.kemonomimi.moe/kemonoforge/instance/src/branch/main/guidelines.md).
 
-Once you've signed up simply fork [Navistoat](https://forge.kemonomimi.moe/otakuemily/Navistoat), push your changes to your fork, and then make a pull request explaining what you've changed.
+Once you've signed up simply fork [Ranma](https://forge.kemonomimi.moe/otakuemily/ranma), push your changes to your fork, and then make a pull request explaining what you've changed.
