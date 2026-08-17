@@ -18,6 +18,8 @@ class Stoat(BaseModel):
     api_key: str
     is_bot: bool = True
 
+class Limits(BaseModel):
+    max_channels: int = -1
 
 class Server(BaseModel):
     """Configuration for interacting with the OpenSubsonic server.
@@ -29,6 +31,7 @@ class Server(BaseModel):
     """
 
     base_url: str
+    port: int
 
     # Mutually exclusive, API_KEY can NOT exist when USERNAME and PASSWORD are present, vice versa.
     api_key: str | None = None
@@ -47,6 +50,7 @@ class Settings(BaseSettings):
 
     stoat: Stoat
     server: Server
+    limits: Limits
 
     model_config = SettingsConfigDict(
         env_prefix="ranma_",

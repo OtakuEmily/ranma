@@ -3,7 +3,7 @@ build-backend = "uv_build"
 requires = [ "uv_build>=0.12.5,<0.13.0" ]
 
 [dependency-groups]
-dev = [ "pyright>=1.1.409", "ruff>=0.15.13" ]
+dev = [ "pyright>=1.1.411", "ruff>=0.15.13" ]
 
 [project]
 classifiers = [
@@ -28,7 +28,7 @@ description = "A tiny Stoat bot to bring social media feeds to your communities!
 license = "AGPL-3.0-or-later"
 name = "ranma"
 requires-python = ">=3.14"
-version = "2026.8.17a"
+version = "2026.8.18a"
 
 [[project.authors]]
 name = "Emily"

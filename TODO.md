@@ -1,0 +1,8 @@
+- [ ] Fix skipping not working
+- [ ] Implement more session API
+- - [ ] Skip to
+- - [ ] Queue view
+- - [ ] Clear queue
+- [ ] Tidy code up
+- [ ] Add docstrings and comments where needed
+- [ ] Pass coderabbit review
